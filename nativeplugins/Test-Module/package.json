@@ -1,0 +1,43 @@
+{
+    "name": "TestModule",
+    "id": "Test-Module",
+    "version": "1.0",
+    "description": "测试用途",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "Test-Module",
+                    "class": "top.ykcloud.testplugin.TestModule"
+                }
+            ],
+            "hooksClass": "",
+            "integrateType": "aar",
+            "dependencies": [
+				
+            ],
+            "compileOptions": {
+                "sourceCompatibility": "1.8",
+                "targetCompatibility": "1.8"
+            },
+            "abis": [
+                "armeabi-v7a",
+				"x86"
+            ],
+            "minSdkVersion": "22",
+            "useAndroidX": false,
+            "permissions": [
+                
+            ],
+            "parameters": {
+                "android_appid": {
+                    "des": "请填写appid",
+                    "key": "TM123456",
+                    "placeholder": ""
+                }
+            }
+        }
+    }
+}
