@@ -1,0 +1,23 @@
+{
+  "nativePlugins": [
+    {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "Test-Module",
+          "class": "top.ykcloud.testplugin.TestModule"
+        }
+      ]
+    },
+    {
+      "hooksClass": "top.ykcloud.locationplugin.LocationModuleAppProxy",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "Location-Module",
+          "class": "top.ykcloud.locationplugin.LocationModule"
+        }
+      ]
+    }
+  ]
+}
